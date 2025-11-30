@@ -1,0 +1,501 @@
+id,route,warehouse,delivery_time,delay_minutes,delay_reason,date
+1,Route A,WH1,5.7,26,Traffic,2025-10-15
+2,Route B,WH1,4.8,18,Warehouse Overload,2025-10-06
+3,Route E,WH4,4.6,0,,2025-10-06
+4,Route B,WH2,4.6,1,Weather,2025-11-05
+5,Route B,WH5,5.4,24,Customs Delay,2025-11-07
+6,Route C,WH1,6.5,0,,2025-11-14
+7,Route D,WH3,4.1,0,,2025-10-14
+8,Route C,WH1,4.2,0,,2025-10-07
+9,Route C,WH3,4.1,14,Traffic,2025-10-03
+10,Route D,WH5,3.6,0,,2025-11-29
+11,Route D,WH1,2.4,0,,2025-11-10
+12,Route E,WH3,4.2,3,Driver Issue,2025-10-05
+13,Route A,WH2,3.6,12,Weather,2025-11-24
+14,Route B,WH1,2.9,30,Customs Delay,2025-11-10
+15,Route C,WH2,5.1,17,Traffic,2025-11-12
+16,Route C,WH1,2.9,0,,2025-11-04
+17,Route B,WH2,3.3,1,Vehicle Breakdown,2025-11-29
+18,Route E,WH2,5.6,59,Warehouse Overload,2025-11-19
+19,Route A,WH2,4.1,23,Traffic,2025-10-21
+20,Route D,WH3,4.6,0,,2025-11-28
+21,Route E,WH3,3.5,0,,2025-11-01
+22,Route D,WH4,4.8,0,,2025-10-09
+23,Route B,WH5,4.2,48,Driver Issue,2025-11-07
+24,Route D,WH5,5.0,5,Traffic,2025-10-09
+25,Route E,WH4,3.1,0,,2025-10-04
+26,Route A,WH2,6.6,0,,2025-11-13
+27,Route D,WH5,3.0,0,,2025-10-25
+28,Route E,WH4,5.3,69,Warehouse Overload,2025-11-25
+29,Route A,WH1,5.3,50,Warehouse Overload,2025-11-18
+30,Route C,WH3,6.3,0,,2025-10-28
+31,Route B,WH4,4.8,0,,2025-11-16
+32,Route C,WH5,4.5,9,Warehouse Overload,2025-11-28
+33,Route A,WH3,6.2,8,Warehouse Overload,2025-11-08
+34,Route B,WH2,4.2,6,Traffic,2025-11-04
+35,Route E,WH1,3.3,32,Customs Delay,2025-10-02
+36,Route A,WH3,5.2,1,Driver Issue,2025-11-21
+37,Route C,WH2,5.9,0,,2025-11-26
+38,Route E,WH1,6.3,0,,2025-11-01
+39,Route A,WH5,6.3,1,Traffic,2025-11-12
+40,Route D,WH5,6.1,0,,2025-11-03
+41,Route E,WH4,3.7,39,Warehouse Overload,2025-11-18
+42,Route B,WH3,4.5,19,Driver Issue,2025-11-11
+43,Route C,WH4,4.3,7,Customs Delay,2025-10-08
+44,Route B,WH2,4.7,0,,2025-10-02
+45,Route E,WH5,6.8,0,,2025-10-15
+46,Route A,WH1,3.7,20,Weather,2025-10-15
+47,Route A,WH1,4.9,2,Weather,2025-11-02
+48,Route B,WH3,6.5,24,Traffic,2025-11-04
+49,Route B,WH5,5.5,29,Traffic,2025-11-20
+50,Route D,WH4,7.3,0,,2025-10-07
+51,Route D,WH3,10.1,11,Customs Delay,2025-11-25
+52,Route A,WH1,3.6,0,,2025-11-16
+53,Route C,WH1,5.1,0,,2025-10-13
+54,Route E,WH4,4.6,0,,2025-10-12
+55,Route C,WH4,5.1,0,,2025-11-29
+56,Route A,WH4,2.0,0,,2025-11-05
+57,Route A,WH1,4.2,28,Warehouse Overload,2025-11-23
+58,Route A,WH1,2.8,0,,2025-10-16
+59,Route B,WH4,4.7,3,Traffic,2025-11-25
+60,Route D,WH1,4.4,0,,2025-10-01
+61,Route D,WH3,6.4,32,Customs Delay,2025-10-30
+62,Route C,WH4,5.5,4,Driver Issue,2025-11-20
+63,Route E,WH4,5.1,0,,2025-10-19
+64,Route B,WH1,6.5,32,Warehouse Overload,2025-10-04
+65,Route C,WH1,4.5,0,,2025-10-31
+66,Route E,WH5,6.0,0,,2025-11-02
+67,Route A,WH2,4.6,0,,2025-10-05
+68,Route B,WH4,4.4,0,,2025-11-26
+69,Route E,WH2,6.9,39,Weather,2025-11-09
+70,Route A,WH4,4.6,0,,2025-11-03
+71,Route C,WH3,1.0,0,,2025-11-15
+72,Route C,WH2,5.5,0,,2025-10-09
+73,Route C,WH4,4.4,0,,2025-11-29
+74,Route A,WH1,4.6,57,Warehouse Overload,2025-10-07
+75,Route A,WH5,5.3,0,,2025-10-17
+76,Route B,WH3,2.0,24,Traffic,2025-10-24
+77,Route C,WH2,5.4,65,Warehouse Overload,2025-11-15
+78,Route C,WH5,4.9,0,,2025-11-11
+79,Route E,WH1,2.1,6,Warehouse Overload,2025-10-20
+80,Route A,WH2,5.0,0,,2025-11-26
+81,Route A,WH5,5.2,0,,2025-10-19
+82,Route E,WH2,4.4,13,Traffic,2025-11-13
+83,Route C,WH5,4.7,0,,2025-10-04
+84,Route A,WH4,5.5,13,Weather,2025-10-01
+85,Route C,WH2,6.7,5,Vehicle Breakdown,2025-10-11
+86,Route D,WH5,6.1,26,Warehouse Overload,2025-10-01
+87,Route A,WH1,7.1,20,Driver Issue,2025-11-27
+88,Route B,WH5,2.9,0,,2025-10-24
+89,Route E,WH5,3.7,0,,2025-10-09
+90,Route A,WH3,5.1,36,Weather,2025-11-25
+91,Route A,WH3,3.5,0,,2025-10-16
+92,Route A,WH3,4.2,0,,2025-10-27
+93,Route E,WH2,7.6,0,,2025-11-25
+94,Route B,WH2,6.3,14,Weather,2025-10-12
+95,Route C,WH4,6.0,3,Customs Delay,2025-11-17
+96,Route B,WH3,3.2,0,,2025-11-14
+97,Route A,WH4,3.6,0,,2025-10-31
+98,Route B,WH2,7.3,2,Customs Delay,2025-10-23
+99,Route C,WH2,3.8,0,,2025-11-12
+100,Route B,WH4,4.5,0,,2025-10-05
+101,Route C,WH3,4.5,21,Customs Delay,2025-11-13
+102,Route E,WH3,5.8,33,Weather,2025-11-26
+103,Route C,WH2,7.0,5,Vehicle Breakdown,2025-10-03
+104,Route A,WH5,8.8,1,Driver Issue,2025-11-20
+105,Route C,WH4,2.8,8,Warehouse Overload,2025-10-08
+106,Route D,WH5,6.8,0,,2025-10-03
+107,Route D,WH1,5.8,43,Driver Issue,2025-11-04
+108,Route B,WH3,5.4,30,Driver Issue,2025-11-28
+109,Route C,WH5,4.0,3,Vehicle Breakdown,2025-10-08
+110,Route C,WH5,5.3,45,Customs Delay,2025-10-21
+111,Route D,WH3,5.4,0,,2025-10-27
+112,Route D,WH2,3.9,3,Vehicle Breakdown,2025-10-26
+113,Route E,WH1,7.8,21,Traffic,2025-10-28
+114,Route E,WH5,5.7,5,Customs Delay,2025-10-29
+115,Route D,WH2,3.5,7,Vehicle Breakdown,2025-11-27
+116,Route B,WH1,6.2,0,,2025-11-12
+117,Route E,WH3,6.2,0,,2025-11-30
+118,Route B,WH3,6.9,0,,2025-10-13
+119,Route B,WH1,5.6,0,,2025-10-31
+120,Route E,WH1,6.4,16,Driver Issue,2025-11-06
+121,Route B,WH4,4.6,6,Traffic,2025-10-10
+122,Route A,WH1,3.9,5,Traffic,2025-10-12
+123,Route E,WH4,4.9,0,,2025-10-16
+124,Route A,WH4,5.5,0,,2025-10-30
+125,Route E,WH5,5.4,31,Warehouse Overload,2025-11-27
+126,Route D,WH5,6.2,13,Warehouse Overload,2025-10-28
+127,Route E,WH4,4.6,4,Driver Issue,2025-11-25
+128,Route D,WH4,9.1,0,,2025-10-16
+129,Route C,WH5,3.6,0,,2025-10-18
+130,Route D,WH1,6.5,20,Traffic,2025-10-18
+131,Route C,WH3,4.8,68,Weather,2025-10-09
+132,Route B,WH2,6.1,66,Traffic,2025-11-15
+133,Route B,WH1,4.3,9,Vehicle Breakdown,2025-11-04
+134,Route D,WH4,6.2,0,,2025-11-23
+135,Route D,WH4,4.3,3,Warehouse Overload,2025-11-30
+136,Route A,WH5,6.3,16,Weather,2025-11-30
+137,Route C,WH3,5.3,16,Traffic,2025-11-27
+138,Route D,WH5,5.6,2,Warehouse Overload,2025-11-21
+139,Route E,WH2,5.1,41,Vehicle Breakdown,2025-10-28
+140,Route D,WH1,3.3,27,Driver Issue,2025-11-13
+141,Route D,WH2,6.6,8,Traffic,2025-11-09
+142,Route E,WH1,6.6,6,Warehouse Overload,2025-11-06
+143,Route A,WH1,5.8,40,Traffic,2025-11-25
+144,Route D,WH2,5.8,0,,2025-10-25
+145,Route C,WH2,5.0,13,Vehicle Breakdown,2025-11-18
+146,Route D,WH3,6.3,32,Customs Delay,2025-10-27
+147,Route C,WH1,7.0,31,Driver Issue,2025-11-04
+148,Route A,WH3,6.5,0,,2025-10-05
+149,Route A,WH1,4.5,9,Traffic,2025-11-23
+150,Route A,WH5,6.1,0,,2025-10-09
+151,Route D,WH1,5.2,0,,2025-10-30
+152,Route C,WH3,3.7,0,,2025-11-08
+153,Route A,WH2,8.5,6,Weather,2025-11-07
+154,Route A,WH3,2.2,17,Customs Delay,2025-10-26
+155,Route B,WH1,4.3,2,Vehicle Breakdown,2025-11-10
+156,Route B,WH1,6.6,14,Vehicle Breakdown,2025-11-24
+157,Route E,WH1,3.9,19,Warehouse Overload,2025-11-20
+158,Route A,WH3,6.0,1,Driver Issue,2025-10-24
+159,Route A,WH5,5.1,15,Weather,2025-11-24
+160,Route D,WH4,4.0,0,,2025-10-24
+161,Route D,WH2,7.0,74,Driver Issue,2025-11-03
+162,Route C,WH5,6.2,14,Warehouse Overload,2025-11-19
+163,Route D,WH4,6.6,6,Driver Issue,2025-11-07
+164,Route C,WH3,4.1,11,Traffic,2025-11-29
+165,Route A,WH3,3.8,3,Traffic,2025-11-18
+166,Route D,WH5,7.5,3,Customs Delay,2025-10-22
+167,Route A,WH4,5.5,25,Traffic,2025-11-01
+168,Route B,WH3,2.6,21,Vehicle Breakdown,2025-10-18
+169,Route E,WH3,5.6,18,Warehouse Overload,2025-11-30
+170,Route B,WH1,7.5,0,,2025-10-27
+171,Route D,WH5,2.7,8,Driver Issue,2025-10-31
+172,Route D,WH4,4.3,28,Weather,2025-10-19
+173,Route B,WH4,5.7,12,Vehicle Breakdown,2025-11-12
+174,Route E,WH3,6.2,2,Warehouse Overload,2025-10-23
+175,Route D,WH5,0.1,3,Driver Issue,2025-10-30
+176,Route C,WH3,3.5,0,,2025-10-08
+177,Route B,WH3,2.0,0,,2025-11-04
+178,Route B,WH2,3.0,0,,2025-10-31
+179,Route C,WH5,7.3,0,,2025-11-08
+180,Route C,WH1,7.0,9,Vehicle Breakdown,2025-10-15
+181,Route C,WH2,5.1,38,Driver Issue,2025-11-04
+182,Route B,WH3,8.5,0,,2025-10-04
+183,Route E,WH3,3.5,1,Traffic,2025-11-10
+184,Route D,WH1,5.7,20,Warehouse Overload,2025-10-19
+185,Route D,WH4,5.1,56,Traffic,2025-10-04
+186,Route C,WH4,4.4,0,,2025-10-05
+187,Route D,WH4,2.2,0,,2025-11-10
+188,Route A,WH2,6.9,0,,2025-11-06
+189,Route C,WH1,4.1,15,Weather,2025-11-05
+190,Route D,WH5,8.2,56,Warehouse Overload,2025-10-15
+191,Route E,WH4,5.7,47,Customs Delay,2025-10-20
+192,Route E,WH4,4.8,4,Warehouse Overload,2025-10-04
+193,Route E,WH1,4.3,7,Traffic,2025-11-10
+194,Route B,WH3,5.3,37,Traffic,2025-10-16
+195,Route B,WH5,4.1,0,,2025-10-01
+196,Route D,WH4,4.5,23,Customs Delay,2025-10-19
+197,Route A,WH2,6.3,0,,2025-10-19
+198,Route D,WH1,5.5,26,Vehicle Breakdown,2025-11-20
+199,Route E,WH2,4.1,3,Warehouse Overload,2025-10-15
+200,Route B,WH3,6.3,27,Weather,2025-10-04
+201,Route B,WH3,2.3,29,Driver Issue,2025-11-06
+202,Route C,WH4,3.2,0,,2025-11-14
+203,Route C,WH4,5.8,39,Warehouse Overload,2025-11-04
+204,Route D,WH4,4.7,0,,2025-10-03
+205,Route D,WH3,7.3,28,Weather,2025-10-06
+206,Route B,WH5,4.3,2,Weather,2025-11-18
+207,Route C,WH5,5.0,0,,2025-11-18
+208,Route B,WH4,6.4,35,Customs Delay,2025-11-28
+209,Route C,WH2,6.0,9,Customs Delay,2025-11-10
+210,Route D,WH1,4.5,0,,2025-10-22
+211,Route C,WH1,5.5,60,Vehicle Breakdown,2025-10-27
+212,Route D,WH3,4.8,17,Customs Delay,2025-11-22
+213,Route E,WH1,3.8,6,Vehicle Breakdown,2025-10-17
+214,Route C,WH1,8.1,7,Customs Delay,2025-11-25
+215,Route E,WH1,6.7,31,Warehouse Overload,2025-10-30
+216,Route D,WH1,6.2,0,,2025-10-24
+217,Route E,WH4,4.0,15,Vehicle Breakdown,2025-10-04
+218,Route B,WH3,5.0,11,Vehicle Breakdown,2025-10-29
+219,Route D,WH1,4.5,0,,2025-11-10
+220,Route E,WH2,6.2,2,Vehicle Breakdown,2025-11-05
+221,Route A,WH5,5.6,19,Traffic,2025-11-23
+222,Route A,WH4,4.2,2,Driver Issue,2025-11-23
+223,Route B,WH4,5.4,1,Vehicle Breakdown,2025-11-02
+224,Route C,WH4,4.2,34,Customs Delay,2025-10-16
+225,Route D,WH5,4.3,0,,2025-10-13
+226,Route E,WH5,5.3,1,Traffic,2025-11-25
+227,Route A,WH3,6.7,58,Weather,2025-10-27
+228,Route C,WH5,4.3,0,,2025-10-01
+229,Route C,WH3,3.9,30,Warehouse Overload,2025-11-12
+230,Route D,WH2,4.7,16,Customs Delay,2025-10-23
+231,Route C,WH5,6.3,2,Customs Delay,2025-10-30
+232,Route C,WH2,4.8,13,Traffic,2025-11-06
+233,Route D,WH2,5.0,1,Customs Delay,2025-10-03
+234,Route C,WH4,4.6,2,Customs Delay,2025-10-25
+235,Route D,WH2,5.5,27,Weather,2025-10-09
+236,Route E,WH5,3.8,17,Weather,2025-11-25
+237,Route D,WH1,4.8,6,Customs Delay,2025-10-01
+238,Route B,WH4,5.6,40,Traffic,2025-10-05
+239,Route D,WH3,5.3,1,Driver Issue,2025-10-26
+240,Route A,WH3,5.0,16,Weather,2025-11-04
+241,Route D,WH3,5.0,19,Customs Delay,2025-11-01
+242,Route E,WH1,5.7,23,Traffic,2025-11-10
+243,Route C,WH2,8.2,17,Customs Delay,2025-10-07
+244,Route A,WH4,3.8,0,,2025-10-20
+245,Route A,WH1,4.8,19,Weather,2025-10-19
+246,Route C,WH3,6.5,6,Traffic,2025-11-03
+247,Route D,WH5,4.8,8,Traffic,2025-10-11
+248,Route B,WH1,3.0,17,Customs Delay,2025-11-09
+249,Route B,WH4,2.1,33,Traffic,2025-10-15
+250,Route D,WH3,5.5,23,Driver Issue,2025-10-01
+251,Route D,WH3,6.1,10,Traffic,2025-10-05
+252,Route D,WH3,7.2,53,Vehicle Breakdown,2025-11-10
+253,Route D,WH3,4.9,33,Vehicle Breakdown,2025-10-13
+254,Route D,WH4,4.6,0,,2025-10-25
+255,Route E,WH3,2.4,70,Driver Issue,2025-10-19
+256,Route A,WH4,7.0,0,,2025-11-06
+257,Route A,WH5,5.4,12,Driver Issue,2025-11-27
+258,Route C,WH2,5.4,10,Vehicle Breakdown,2025-10-15
+259,Route B,WH5,4.8,0,,2025-11-18
+260,Route B,WH1,4.9,40,Driver Issue,2025-10-03
+261,Route C,WH4,5.0,0,,2025-10-24
+262,Route B,WH1,5.1,29,Vehicle Breakdown,2025-11-17
+263,Route D,WH2,4.5,0,,2025-11-20
+264,Route E,WH3,2.6,2,Vehicle Breakdown,2025-11-23
+265,Route B,WH3,5.2,5,Customs Delay,2025-11-21
+266,Route C,WH3,5.8,22,Customs Delay,2025-10-05
+267,Route B,WH2,2.7,2,Driver Issue,2025-11-13
+268,Route D,WH5,6.9,22,Driver Issue,2025-10-26
+269,Route A,WH3,7.3,14,Customs Delay,2025-10-24
+270,Route C,WH5,5.2,38,Driver Issue,2025-11-30
+271,Route C,WH1,8.1,41,Customs Delay,2025-10-02
+272,Route E,WH5,7.6,10,Warehouse Overload,2025-10-15
+273,Route A,WH4,6.0,24,Vehicle Breakdown,2025-11-11
+274,Route D,WH1,7.1,0,,2025-11-30
+275,Route A,WH3,4.3,0,,2025-10-07
+276,Route B,WH5,4.5,0,,2025-10-30
+277,Route C,WH5,6.6,9,Driver Issue,2025-11-16
+278,Route B,WH4,2.4,11,Vehicle Breakdown,2025-11-01
+279,Route E,WH4,4.6,14,Vehicle Breakdown,2025-10-03
+280,Route C,WH2,6.1,30,Traffic,2025-11-24
+281,Route C,WH1,7.4,39,Vehicle Breakdown,2025-11-04
+282,Route C,WH1,2.9,59,Traffic,2025-10-08
+283,Route D,WH1,2.4,12,Driver Issue,2025-11-10
+284,Route E,WH1,4.9,0,,2025-10-22
+285,Route B,WH2,5.0,7,Traffic,2025-10-05
+286,Route E,WH2,5.6,20,Vehicle Breakdown,2025-11-25
+287,Route B,WH3,4.8,2,Driver Issue,2025-11-27
+288,Route E,WH1,4.9,0,,2025-10-10
+289,Route B,WH5,5.5,0,,2025-10-12
+290,Route A,WH1,3.6,0,,2025-10-23
+291,Route B,WH5,4.2,45,Traffic,2025-10-17
+292,Route A,WH2,3.4,12,Warehouse Overload,2025-10-08
+293,Route A,WH4,3.5,4,Vehicle Breakdown,2025-11-02
+294,Route E,WH1,5.8,0,,2025-11-30
+295,Route E,WH1,4.2,3,Traffic,2025-11-12
+296,Route E,WH3,3.8,1,Weather,2025-10-04
+297,Route D,WH4,4.8,4,Weather,2025-11-01
+298,Route D,WH1,3.4,9,Vehicle Breakdown,2025-11-08
+299,Route B,WH1,7.9,0,,2025-11-09
+300,Route E,WH5,5.1,0,,2025-11-08
+301,Route E,WH3,5.8,1,Warehouse Overload,2025-10-28
+302,Route A,WH1,6.8,41,Driver Issue,2025-11-26
+303,Route E,WH2,6.3,27,Traffic,2025-10-27
+304,Route C,WH4,4.1,4,Driver Issue,2025-10-07
+305,Route C,WH4,4.2,13,Vehicle Breakdown,2025-10-24
+306,Route B,WH4,3.2,0,,2025-11-23
+307,Route A,WH1,2.7,12,Driver Issue,2025-11-17
+308,Route C,WH2,7.1,27,Warehouse Overload,2025-11-05
+309,Route E,WH3,5.9,14,Customs Delay,2025-10-23
+310,Route D,WH1,5.5,15,Warehouse Overload,2025-10-20
+311,Route C,WH1,4.8,15,Traffic,2025-10-10
+312,Route D,WH2,3.6,5,Vehicle Breakdown,2025-11-24
+313,Route E,WH3,3.9,0,,2025-10-18
+314,Route E,WH2,2.9,0,,2025-11-05
+315,Route E,WH5,3.4,7,Warehouse Overload,2025-10-02
+316,Route E,WH3,4.0,0,,2025-10-18
+317,Route C,WH3,7.5,31,Traffic,2025-11-25
+318,Route B,WH5,6.3,13,Weather,2025-10-10
+319,Route A,WH1,5.1,17,Traffic,2025-10-25
+320,Route D,WH4,3.7,27,Vehicle Breakdown,2025-10-20
+321,Route C,WH5,3.4,6,Weather,2025-10-10
+322,Route B,WH5,4.7,0,,2025-10-06
+323,Route C,WH4,7.1,16,Customs Delay,2025-11-08
+324,Route D,WH4,3.0,0,,2025-11-18
+325,Route E,WH1,2.9,2,Weather,2025-10-19
+326,Route E,WH4,5.8,3,Vehicle Breakdown,2025-10-03
+327,Route B,WH4,4.0,4,Weather,2025-10-01
+328,Route B,WH3,4.3,6,Driver Issue,2025-10-09
+329,Route C,WH3,5.1,10,Weather,2025-11-01
+330,Route D,WH2,3.8,0,,2025-11-04
+331,Route B,WH5,5.6,40,Driver Issue,2025-11-21
+332,Route C,WH1,4.9,33,Driver Issue,2025-10-03
+333,Route D,WH1,3.9,22,Weather,2025-11-25
+334,Route C,WH5,4.2,53,Customs Delay,2025-11-15
+335,Route D,WH3,8.1,0,,2025-10-02
+336,Route C,WH2,7.4,6,Warehouse Overload,2025-10-30
+337,Route C,WH1,4.0,7,Weather,2025-10-16
+338,Route D,WH5,5.9,11,Weather,2025-10-26
+339,Route C,WH3,2.6,0,,2025-11-19
+340,Route B,WH1,5.1,2,Weather,2025-11-03
+341,Route E,WH2,2.7,17,Vehicle Breakdown,2025-10-23
+342,Route B,WH2,6.2,0,,2025-10-17
+343,Route B,WH2,4.9,15,Traffic,2025-11-18
+344,Route A,WH2,3.2,1,Driver Issue,2025-11-01
+345,Route D,WH5,3.7,1,Customs Delay,2025-11-13
+346,Route E,WH5,4.4,92,Driver Issue,2025-10-21
+347,Route B,WH4,6.5,0,,2025-10-29
+348,Route C,WH3,4.1,5,Vehicle Breakdown,2025-11-02
+349,Route A,WH3,6.7,18,Weather,2025-10-04
+350,Route C,WH3,6.2,0,,2025-11-25
+351,Route A,WH5,1.3,8,Customs Delay,2025-10-30
+352,Route E,WH5,3.8,53,Driver Issue,2025-11-27
+353,Route A,WH4,5.6,55,Warehouse Overload,2025-11-11
+354,Route B,WH3,4.1,3,Warehouse Overload,2025-10-10
+355,Route A,WH4,5.1,0,,2025-11-27
+356,Route C,WH1,4.8,17,Traffic,2025-10-03
+357,Route B,WH4,4.8,31,Warehouse Overload,2025-11-03
+358,Route E,WH2,5.2,4,Vehicle Breakdown,2025-10-25
+359,Route D,WH3,4.5,33,Weather,2025-11-20
+360,Route C,WH1,4.5,21,Warehouse Overload,2025-11-13
+361,Route D,WH3,1.7,0,,2025-11-24
+362,Route E,WH2,5.5,41,Warehouse Overload,2025-11-12
+363,Route B,WH3,6.8,11,Driver Issue,2025-11-14
+364,Route D,WH2,4.4,9,Weather,2025-10-20
+365,Route E,WH4,2.2,27,Vehicle Breakdown,2025-11-22
+366,Route B,WH5,4.5,0,,2025-11-12
+367,Route D,WH5,2.6,45,Vehicle Breakdown,2025-10-20
+368,Route B,WH2,5.0,9,Traffic,2025-11-01
+369,Route B,WH2,6.3,19,Traffic,2025-10-05
+370,Route C,WH1,5.1,2,Warehouse Overload,2025-11-23
+371,Route E,WH1,5.2,8,Traffic,2025-11-09
+372,Route B,WH5,5.9,2,Traffic,2025-10-12
+373,Route E,WH2,5.8,15,Weather,2025-10-27
+374,Route C,WH2,6.9,44,Warehouse Overload,2025-10-19
+375,Route D,WH2,4.3,7,Vehicle Breakdown,2025-11-21
+376,Route D,WH2,5.6,5,Warehouse Overload,2025-10-29
+377,Route D,WH3,7.3,41,Warehouse Overload,2025-11-03
+378,Route D,WH2,5.6,8,Vehicle Breakdown,2025-11-08
+379,Route B,WH3,6.9,0,,2025-10-31
+380,Route C,WH5,4.3,3,Driver Issue,2025-11-24
+381,Route E,WH1,6.1,0,,2025-11-18
+382,Route B,WH3,3.6,25,Warehouse Overload,2025-10-10
+383,Route D,WH1,7.1,15,Traffic,2025-11-22
+384,Route D,WH3,6.5,5,Customs Delay,2025-10-04
+385,Route D,WH5,3.4,47,Customs Delay,2025-10-06
+386,Route C,WH2,4.2,0,,2025-11-29
+387,Route A,WH3,2.3,12,Traffic,2025-10-03
+388,Route C,WH4,7.2,58,Traffic,2025-11-18
+389,Route D,WH4,5.4,14,Weather,2025-10-02
+390,Route C,WH2,3.3,18,Warehouse Overload,2025-11-30
+391,Route E,WH5,5.2,23,Warehouse Overload,2025-10-19
+392,Route B,WH3,6.1,0,,2025-10-16
+393,Route D,WH5,5.3,3,Weather,2025-11-23
+394,Route D,WH5,5.7,17,Driver Issue,2025-11-02
+395,Route E,WH2,3.0,26,Vehicle Breakdown,2025-10-28
+396,Route A,WH5,7.8,54,Warehouse Overload,2025-10-27
+397,Route B,WH1,4.9,2,Vehicle Breakdown,2025-10-05
+398,Route E,WH5,6.2,83,Warehouse Overload,2025-11-05
+399,Route A,WH4,8.8,10,Weather,2025-11-10
+400,Route D,WH3,5.8,0,,2025-10-02
+401,Route C,WH1,4.8,32,Driver Issue,2025-11-12
+402,Route A,WH5,4.4,0,,2025-10-09
+403,Route A,WH3,3.5,15,Weather,2025-11-11
+404,Route B,WH4,2.5,50,Customs Delay,2025-11-10
+405,Route B,WH2,3.1,0,,2025-11-19
+406,Route D,WH1,3.1,0,,2025-10-03
+407,Route B,WH1,4.5,5,Vehicle Breakdown,2025-11-02
+408,Route D,WH5,7.5,12,Weather,2025-11-18
+409,Route B,WH3,4.6,13,Driver Issue,2025-10-04
+410,Route C,WH3,4.6,0,,2025-10-24
+411,Route D,WH4,6.2,9,Customs Delay,2025-10-22
+412,Route B,WH4,4.8,17,Vehicle Breakdown,2025-11-29
+413,Route E,WH3,3.5,64,Driver Issue,2025-10-28
+414,Route A,WH4,5.8,3,Warehouse Overload,2025-10-12
+415,Route E,WH3,3.8,115,Weather,2025-10-21
+416,Route C,WH3,4.8,13,Driver Issue,2025-10-28
+417,Route B,WH4,4.0,27,Weather,2025-11-16
+418,Route C,WH5,5.2,4,Vehicle Breakdown,2025-11-10
+419,Route A,WH1,4.8,4,Customs Delay,2025-10-24
+420,Route E,WH2,5.2,0,,2025-11-24
+421,Route E,WH4,8.9,0,,2025-10-05
+422,Route B,WH3,3.3,1,Warehouse Overload,2025-10-03
+423,Route E,WH2,4.6,14,Vehicle Breakdown,2025-10-24
+424,Route D,WH1,7.3,11,Warehouse Overload,2025-10-24
+425,Route D,WH3,6.9,3,Traffic,2025-10-08
+426,Route A,WH2,1.9,4,Customs Delay,2025-11-28
+427,Route E,WH1,2.9,0,,2025-10-17
+428,Route D,WH2,3.8,20,Vehicle Breakdown,2025-11-14
+429,Route D,WH2,4.5,0,,2025-11-24
+430,Route A,WH4,4.9,0,,2025-11-15
+431,Route D,WH1,5.7,21,Warehouse Overload,2025-10-21
+432,Route C,WH1,3.8,0,,2025-11-27
+433,Route C,WH2,3.9,22,Driver Issue,2025-11-10
+434,Route B,WH3,3.9,0,,2025-10-13
+435,Route B,WH2,5.1,3,Weather,2025-10-24
+436,Route E,WH5,4.8,21,Warehouse Overload,2025-11-05
+437,Route B,WH5,4.5,5,Weather,2025-10-20
+438,Route D,WH4,4.7,25,Customs Delay,2025-10-27
+439,Route E,WH1,5.4,0,,2025-10-21
+440,Route A,WH4,5.4,10,Warehouse Overload,2025-10-23
+441,Route B,WH5,3.4,6,Traffic,2025-11-19
+442,Route B,WH4,5.9,45,Customs Delay,2025-10-04
+443,Route A,WH5,5.5,0,,2025-10-11
+444,Route B,WH3,3.1,10,Traffic,2025-10-23
+445,Route E,WH3,3.1,9,Vehicle Breakdown,2025-10-13
+446,Route E,WH3,3.8,0,,2025-10-20
+447,Route E,WH5,2.7,0,,2025-11-11
+448,Route B,WH5,5.9,19,Traffic,2025-10-11
+449,Route E,WH5,6.9,11,Warehouse Overload,2025-10-03
+450,Route A,WH1,1.7,0,,2025-11-11
+451,Route E,WH3,5.3,28,Customs Delay,2025-11-06
+452,Route D,WH5,4.9,3,Customs Delay,2025-11-26
+453,Route E,WH3,4.9,44,Vehicle Breakdown,2025-10-31
+454,Route B,WH4,6.7,0,,2025-10-05
+455,Route A,WH2,4.5,0,,2025-10-30
+456,Route B,WH3,7.0,6,Vehicle Breakdown,2025-11-25
+457,Route C,WH3,8.2,5,Traffic,2025-11-18
+458,Route C,WH5,6.0,3,Vehicle Breakdown,2025-10-16
+459,Route D,WH1,3.1,0,,2025-10-16
+460,Route B,WH1,5.2,0,,2025-11-30
+461,Route D,WH5,2.6,16,Driver Issue,2025-11-27
+462,Route B,WH3,5.8,21,Driver Issue,2025-10-21
+463,Route B,WH2,4.3,0,,2025-10-30
+464,Route D,WH3,5.8,2,Weather,2025-11-30
+465,Route D,WH5,7.4,21,Traffic,2025-10-14
+466,Route E,WH3,7.4,0,,2025-10-19
+467,Route D,WH5,2.2,14,Driver Issue,2025-11-13
+468,Route D,WH3,3.1,0,,2025-10-07
+469,Route D,WH2,5.8,1,Driver Issue,2025-10-24
+470,Route D,WH3,3.9,0,,2025-10-04
+471,Route E,WH5,2.8,0,,2025-11-05
+472,Route C,WH1,5.9,9,Customs Delay,2025-11-18
+473,Route E,WH3,3.6,25,Warehouse Overload,2025-11-13
+474,Route E,WH1,3.0,0,,2025-10-07
+475,Route D,WH3,5.9,12,Vehicle Breakdown,2025-11-05
+476,Route C,WH2,2.4,0,,2025-11-02
+477,Route D,WH5,5.7,0,,2025-10-03
+478,Route B,WH3,5.3,26,Warehouse Overload,2025-10-30
+479,Route B,WH5,5.9,1,Traffic,2025-10-21
+480,Route E,WH3,2.7,0,,2025-11-09
+481,Route C,WH5,8.8,8,Vehicle Breakdown,2025-11-02
+482,Route E,WH4,4.9,29,Vehicle Breakdown,2025-10-31
+483,Route A,WH3,4.9,23,Weather,2025-10-27
+484,Route E,WH3,7.7,11,Driver Issue,2025-11-25
+485,Route A,WH5,6.1,32,Driver Issue,2025-11-20
+486,Route E,WH5,4.2,0,,2025-10-04
+487,Route E,WH4,3.4,0,,2025-11-10
+488,Route E,WH4,6.4,0,,2025-11-13
+489,Route B,WH1,2.4,1,Driver Issue,2025-10-08
+490,Route B,WH1,6.7,49,Customs Delay,2025-10-10
+491,Route D,WH2,3.0,15,Weather,2025-11-09
+492,Route D,WH1,4.7,41,Warehouse Overload,2025-10-14
+493,Route E,WH3,6.2,21,Customs Delay,2025-11-03
+494,Route D,WH3,5.9,23,Customs Delay,2025-11-28
+495,Route E,WH3,4.3,13,Driver Issue,2025-11-19
+496,Route C,WH5,5.9,5,Traffic,2025-10-18
+497,Route E,WH3,6.2,0,,2025-10-20
+498,Route C,WH2,5.2,0,,2025-10-21
+499,Route D,WH3,3.4,51,Driver Issue,2025-11-16
+500,Route C,WH3,6.6,0,,2025-11-13
