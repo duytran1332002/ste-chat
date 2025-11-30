@@ -153,17 +153,6 @@ pip install -r requirements.txt
 
 All UI components are in `UIManager` class - modify static methods to change appearance or behavior.
 
-## 🆚 Differences from Legacy Code
-
-| Aspect | Legacy (`app.py`, `tools.py`) | New Structure (`src/`) |
-|--------|-------------------------------|------------------------|
-| **Organization** | 2 large monolithic files | Modular directory structure |
-| **Code Reuse** | Functions scattered | Organized in classes |
-| **Testing** | Difficult to unit test | Easy to mock and test |
-| **Maintainability** | Hard to navigate | Clear separation of concerns |
-| **Extensibility** | Requires editing core files | Add new classes/methods |
-| **Configuration** | Hardcoded in main file | Centralized in `config/` |
-
 
 
 
